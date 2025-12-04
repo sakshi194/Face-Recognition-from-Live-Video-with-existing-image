@@ -1,59 +1,64 @@
-Project Overview
+# Face-Recognition-from-Live-Video-with-existing-image
 
-This project is a web-based application built with Flask, OpenCV, and the face_recognition library. It provides real-time face recognition using a webcam, along with functionalities to upload, capture, and manage face images. The application allows users to recognize known faces, add new faces to the database, and delete existing ones.
+## Project Overview
 
-Features
+This project is a web-based application built with Flask, OpenCV, and the `face_recognition` library.  
+It provides real-time face recognition using a webcam, along with functionalities to upload, capture, and manage face images.
 
-- Real-time Face Recognition: Streams video from the user's webcam and recognizes faces in real-time.
+The application allows users to:
 
-- Upload Face Images: Allows users to upload images of new faces to be added to the recognition database.
+- Recognize known faces in real time  
+- Add new faces to the database  
+- Delete or manage existing face images  
 
-- Capture Face Images: Provides a feature to capture face images directly from the webcam and add them to the database.
+---
 
-- Manage Face Images: Users can view and delete face images from the database.
+## Features
 
-- View Recognized Faces: Displays the names of recognized faces from the webcam feed.
+### ✔ Real-time Face Recognition  
+Streams live video from the user's webcam and identifies known faces.
 
-Technologies Used
+### ✔ Upload Face Images  
+Users can upload images of new faces to add them to the recognition database.
 
-- Flask: A lightweight WSGI web application framework in Python.
+### ✔ Capture Face Images  
+Capture images directly from the webcam and save them.
 
-- OpenCV: An open-source computer vision and machine learning software library.
+### ✔ Manage Face Images  
+View all saved face images and delete any unwanted ones.
 
-- face_recognition: A simple and easy-to-use library for face recognition in Python.
+### ✔ Display Recognized Faces  
+Shows the names of detected faces during live video feed.
 
-- HTML/CSS/JavaScript: For creating the web pages and user interface.
+---
 
-- SQLite: For storing face encodings and names persistently.
+## Technologies Used
 
+- **Flask** – Lightweight Python web framework  
+- **OpenCV** – Computer vision and image processing  
+- **face_recognition** – Python library for face recognition  
+- **HTML / CSS / JavaScript** – Frontend UI  
+- **SQLite** – Stores encoded face data persistently  
 
-Usage
+---
 
-Real-time Face Recognition
+## Usage
 
-- Visit the home page to see the real-time video feed from your webcam.
+### 🔹 Real-time Face Recognition
+- Open the home page to view the webcam stream.  
+- The system will automatically detect and identify faces.
 
-- The application will recognize faces that have been added to the database.
+### 🔹 Upload Face Images
+- Navigate to the "Upload Image" page.  
+- Enter the person's name and upload their photo.
 
-Upload Face Images
+### 🔹 Capture Face Images
+- Go to "Capture Face Image".  
+- Take a picture using the webcam and save it with a name.
 
-- Go to the "Upload a new face image" page.
+### 🔹 Manage Face Images
+- View all stored images in the gallery.  
+- Delete any image as needed.
 
-- Enter the name of the person and select the image file to upload.
-
-Capture Face Images
-
-- Go to the "Capture Face Image" page.
-
-- Use your webcam to capture the face image and enter the person's name.
-
-Manage Face Images
-
-- View the photo gallery to see all uploaded images.
-
-- Delete any image by clicking the "Delete" button.
-
-
-
-  
+---
 
